@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9A7B1E" />
+      <stop offset="35%" stop-color="#F5D77A" />
+      <stop offset="65%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#7A5C10" />
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#0A0A0A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Black Background with Radial Gold Glow -->
+  <rect width="1200" height="630" fill="#000000" />
+  <rect width="1200" height="630" fill="url(#centerGlow)" />
+
+  <!-- Outer Hairline Frame with corner marks -->
+  <rect x="40" y="40" width="1120" height="550" rx="8" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-opacity="0.4" />
+  <rect x="48" y="48" width="1104" height="534" rx="4" fill="none" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.2" />
+
+  <!-- Corner Diamonds -->
+  <polygon points="40,40 44,40 40,44" fill="#F5D77A" />
+  <polygon points="1160,40 1156,40 1160,44" fill="#F5D77A" />
+  <polygon points="40,590 44,590 40,586" fill="#F5D77A" />
+  <polygon points="1160,590 1156,590 1160,586" fill="#F5D77A" />
+
+  <!-- Central Monogram Symbol -->
+  <g transform="translate(600, 190) scale(1.1)">
+    <!-- Outer decorative ring -->
+    <circle cx="0" cy="0" r="64" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="4 6" />
+    <circle cx="0" cy="0" r="54" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" />
+    <!-- 'D' letterform -->
+    <path d="M-22,-36 H-4 C18,-36 34,-20 34,0 C34,20 18,36 -4,36 H-22 Z" fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linejoin="round" />
+    <path d="M-28,-36 H-16 M-28,36 H-16 M-22,-36 V36" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="square" />
+    <polygon points="0,-4 4,0 0,4 -4,0" fill="#F5D77A" />
+  </g>
+
+  <!-- Typography -->
+  <!-- Kicker / Eyebrow -->
+  <text x="600" y="320" font-family="'Montserrat', sans-serif" font-size="14" font-weight="600" letter-spacing="8" fill="#F5D77A" text-anchor="middle">
+    SKIN • HAIR • AESTHETIC
+  </text>
+
+  <!-- Main Wordmark -->
+  <text x="600" y="400" font-family="'Cinzel', 'Cormorant Garamond', serif" font-size="64" font-weight="600" letter-spacing="12" fill="url(#goldGrad)" text-anchor="middle">
+    DERMOLYXA™
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="445" font-family="'Montserrat', sans-serif" font-size="16" font-weight="400" letter-spacing="4" fill="#F4EFE6" fill-opacity="0.85" text-anchor="middle">
+    Advanced Regenerative &amp; Aesthetic Science
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="420" y1="480" x2="780" y2="480" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.5" />
+  <polygon points="600,477 603,480 600,483 597,480" fill="#F5D77A" />
+
+  <!-- Footnote Divisions -->
+  <text x="600" y="525" font-family="'Montserrat', sans-serif" font-size="13" font-weight="500" letter-spacing="4" fill="#D4AF37" text-anchor="middle">
+    CLINIC  •  INSTITUTE  •  LABORATORY
+  </text>
+  <text x="600" y="555" font-family="'Montserrat', sans-serif" font-size="11" font-weight="400" letter-spacing="3" fill="#F4EFE6" fill-opacity="0.45" text-anchor="middle">
+    DUBAI • LONDON • MUMBAI
+  </text>
+</svg>
